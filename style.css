@@ -7,9 +7,12 @@ header{
     background-color: rgb(179, 72, 72);
     height: 50px;
     box-shadow:2px 2px rgb(61, 60, 60)  ;
+    display: flex;
+    align-items: center;
     
 }
 header h1{
+    margin-left: 10px;
     color: rgb(245, 201, 201);
     text-shadow: 3px 3px #180a0a;
 }
@@ -72,6 +75,7 @@ footer {
     text-align: center;
     background-color:rgb(179, 72, 72);
     height: 50px;
+    padding: 5px;
 }
 @media only screen and (max-width: 400px) {
 
@@ -81,10 +85,6 @@ footer {
 }
 #banner{
     height: 400px;
-    width: 400px;
-    background-image:url('https://img.freepik.com/free-photo/books-stack-wooden-table_23-2148898286.jpg?size=626&ext=jpg&ga=GA1.1.1666349116.1701504938&semt=ais') ;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 .row{
     height: auto;
@@ -97,8 +97,6 @@ footer {
 .col{
    flex-direction: column;
     width: 100%;
-    overflow-x: auto;
-    overflow-y: scroll;
     margin: 10px
 }
 .container {
